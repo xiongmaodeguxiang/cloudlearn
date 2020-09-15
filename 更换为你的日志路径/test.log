@@ -1,0 +1,43 @@
+13:59:19.351 [main] INFO  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Loading nacos data, dataId: 'application-dev.yaml', group: 'dev-g', data: current:
+    env: public-dev-g
+ur:
+    name: zl-1
+    age: 30
+13:59:19.379 [main] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order] & group[dev-g]
+13:59:19.401 [main] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[order.yaml] & group[dev-g]
+13:59:19.418 [main] INFO  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Loading nacos data, dataId: 'order-dev.yaml', group: 'dev-g', data: singe: order-single
+ur:
+    name: order-zl
+13:59:19.422 [main] INFO  com.xdf.zl.order.OrderApplication - The following profiles are active: dev
+13:59:20.065 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+13:59:20.072 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:59:20.072 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+13:59:20.075 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_31\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\VanDyke Software\Clients\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"C:\Program Files\Java\jdk1.8.0_31\bin;C:\Program Files\Java\jdk1.8.0_31\jre\bin;";C:\Program Files\Git\cmd;F:\worktools\apache-maven-3.5.2\bin;C:\Users\zhanglin574\AppData\Local\Microsoft\WindowsApps;;C:\Users\zhanglin574\AppData\Local\Programs\Fiddler;.]
+13:59:20.176 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:59:20.252 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+13:59:20.252 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+13:59:20.255 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+13:59:20.255 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+13:59:21.632 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+13:59:21.718 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+13:59:21.718 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+13:59:21.792 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+13:59:21.792 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+13:59:21.961 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+13:59:22.169 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+13:59:22.169 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+13:59:22.169 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+13:59:22.169 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+13:59:22.169 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+13:59:22.170 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+13:59:22.170 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+13:59:22.265 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+13:59:22.267 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+13:59:22.269 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+13:59:22.271 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1600149562271 with initial instances count: 1
+13:59:22.274 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1600149562274, current=UP, previous=STARTING]
+13:59:22.276 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER/JT-245300.staff.neworiental.org:order:8762: registering service...
+13:59:22.285 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+13:59:22.293 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+13:59:22.303 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER/JT-245300.staff.neworiental.org:order:8762 - registration status: 204
+13:59:22.307 [main] INFO  com.xdf.zl.order.OrderApplication - Started OrderApplication in 4.646 seconds (JVM running for 5.478)

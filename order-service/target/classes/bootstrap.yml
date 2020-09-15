@@ -1,0 +1,25 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: seal
+        server-addr: 39.96.56.169:8848
+        file-extension: yaml
+        group: dev-g
+        ext-config[0]:
+#          data-id: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          data-id: application-dev.yaml
+          group: dev-g
+  application:
+    name: order
+  profiles:
+    active: dev
+
+
+#        group: dev-g
+server:
+  port: 8762
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
